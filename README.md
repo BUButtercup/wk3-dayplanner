@@ -22,5 +22,7 @@ I believe I achieved the objective, and did it with minimal redundant javascript
 For me, building this was yet more reinforcement of learning how the language wants to be handled and the computer wants to be talked to. It is very interesting to have such intense interaction with something that is unable to understand your meaning through assumption. You need to figure out how to clearly infer your meaning. The good news is, there are usually multiple ways to do this. Hopefully, with time, I will become quicker at identifying these, and the headaches and time loss will decrease.
 
 Screenshots of the finished project:
+<img width="843" alt="Screen Shot 2022-01-09 at 4 52 13 PM" src="https://user-images.githubusercontent.com/95940864/148708204-cf47c67c-c0a2-4f59-9691-6705c32412ea.png">
+<img width="1213" alt="Screen Shot 2022-01-09 at 4 48 30 PM" src="https://user-images.githubusercontent.com/95940864/148708208-0991baf4-0465-4964-8600-eec1796e2bd4.png">
 
 
