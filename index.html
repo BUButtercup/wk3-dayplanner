@@ -18,21 +18,67 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
   <body>
-    <header class="jumbotron">
+    <header class="jumbotron d-flex justify-content-center align-items-center flex-column">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p class="lead description">A simple calendar app for scheduling your work day:</p>
+      <p id="time-block" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <table>
+          <tr class="rows" id="09">
+            <th scope="row" class=" hour col-1">9AM</th>
+            <td colspan="10" class="input"><textarea class="input-box col-12"></textarea></td>
+            <td class="saveBtn col-1">SAVE</td>
+          </tr>
+          <tr class="rows" id="10">
+            <th scope="row" class="hour">10AM</th>
+            <td colspan="10" class="input"><textarea class="input-box col-12"></textarea></td>
+            <td class ="saveBtn col-1">SAVE</td>
+          </tr>
+          <tr class="rows" id="11">
+            <th scope="row" class="hour">11AM</th>
+            <td colspan="10" class="input"><textarea class="input-box col-12 col-12"></textarea></td>
+            <td class ="saveBtn col-1">SAVE</td>
+          </tr>
+          <tr class="rows" id="12">
+            <th scope="row"class="hour">12PM</th>
+            <td colspan="10" class="input"><textarea class="input-box col-12"></textarea></td>
+            <td class ="saveBtn col-1">SAVE</td>
+          </tr>
+          <tr class="rows" id="13">
+            <th scope="row"class="hour">1PM</th>
+            <td colspan="10" class="input"><textarea class="input-box col-12"></textarea></td>
+            <td class ="saveBtn col-1">SAVE</td>
+          </tr>
+          <tr class="rows" id="14">
+            <th scope="row"class="hour">2PM</th>
+             <td colspan="10" class="input"><textarea class="input-box col-12"></textarea></td>
+            <td class ="saveBtn col-1">SAVE</td>
+          </tr>
+          <tr class="rows" id="15">
+            <th scope="row"class="hour">3PM</th>
+             <td colspan="10" class="input"><textarea class="input-box col-12"></textarea></td>
+            <td class ="saveBtn col-1">SAVE</td>
+          </tr>
+          <tr class="rows" id="16">
+            <th colspan="1" scope="row"class="hour">4PM</th>
+             <td colspan="10" class="input"><textarea class="input-box col-12"></textarea></td>
+            <td class ="saveBtn col-1">SAVE</td>
+          </tr>
+          <tr class="rows" id="17">
+            <th colspan="1" scope="row"class="hour">5PM</th>
+             <td colspan="10" class="input"><textarea class="input-box col-12" data-index='17'></textarea></td>
+            <td class ="saveBtn col-1">SAVE</td>
+        </tbody>
+      </table>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/script.js"></script>
   </body>
 </html>
