@@ -39,14 +39,8 @@ function start(){
 $(saveBtns).click(function(event){
     let boxLoc = $(event.target).closest('tr').attr('id');
     let boxCont = $(event.target).siblings('.input').find('.input-box').val()
-    if (boxCont === ''){
-        alert('you didn\'t put anything in the box!');
-        return
-    } else {
-        console.log(boxLoc, boxCont);
         events.push([boxLoc, boxCont]);
         localStorage.setItem('storedEvents', JSON.stringify(events));
-    }
 });
 
 start();
